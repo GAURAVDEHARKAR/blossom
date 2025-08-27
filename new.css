@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.d1{
+    width: 100%;
+    height: 30vh;
+    background-image: url(image/ChatGPT\ Image\ Aug\ 27\,\ 2025\,\ 01_56_43\ PM.png);
+    background-size: cover;
+}
+.d1-p{
+    text-align: center;
+    color: aliceblue;
+}
+
+.second{
+    background-color: rgb(44, 10, 74);
+}
+.d1-txt{
+    text-align: center;
+    color: aliceblue;
+    /* padding-top: 50px; */
+}
+.d1-txt1{
+
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.d2{
+    width: 100%;
+    padding: 25px;
+}
+.box1{
+    width: 80%;
+    
+}
+.box1-img{
+    width: 320px;
+    height: 240px;
+    border-radius: px;
+}
+.d7{
+    width: 100%;
+    padding: 10px;
+    background-color: grey;
+    
+}
+.d7-1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 65px;
+}
+.d7-2{
+    display: flex;
+    flex-direction: column;
+}
+.class-7{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width : 768px) {
+
+   .d1-p{
+        height: 55px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .d1-txt{
+        text-align: center;
+        padding-top: 20px;
+        
+    }
+    .d1-txt1{
+        font-size: 20px;
+    }
+    .d2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box1{
+        width: 50%;
+    }
+    .box1-img{
+    width: 320px;
+    height: 240px;
+    border-radius: 7px;
+}
+
+    
+    
+}
+
+
+@media (min-width : 1024px) {
+
+   
+    .d1{
+        height: 60vh;
+    }
+
+    
+    .d1-p{
+        height: 40%;
+        font-size: 35px;
+    }
+    .d1-txt{
+        text-align: center;
+        padding-top: 50px;
+    }
+    .d2{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .box1{
+        width: 23%;
+    }
+    .box1-img{
+    width: 220px;
+    height: 220px;
+    border-radius: 7px;
+}
+
+    
+}
