@@ -6,7 +6,7 @@
 }
 .d1{
     width: 100%;
-    height: 40vh;
+    height: 30vh;
     background-image: url(image/391a9eac-2949-485f-9c5b-5dc316f1f0a1.png);
     background-size: cover;
 }
@@ -21,7 +21,7 @@
 .d1-txt{
     text-align: center;
     color: aliceblue;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 .d1-txt1{
 
@@ -70,6 +70,7 @@
     }
     .d1-txt{
         text-align: center;
+        padding-top: 20px;
         
     }
     .d1-txt1{
@@ -96,7 +97,7 @@
 @media (min-width : 1024px) {
 
     .d1{
-        height: 80vh;
+        height: 60vh;
     }
 
     
